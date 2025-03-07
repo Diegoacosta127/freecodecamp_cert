@@ -1,0 +1,20 @@
+* {
+  background-color: #1b1b32;
+  color: #fafafa;
+  font-family: mono, sans-serif
+}
+h1{
+  display:flex;
+  justify-content: center
+}
+img {
+  display: block;
+}
+#image {
+  max-width: 100%;
+  height: auto;
+  margin: auto
+}
+#img-caption {
+  font-size: 0.8em
+}

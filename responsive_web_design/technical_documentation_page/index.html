@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Tech Doc Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <nav id="navbar">
+      <header>Software Development basics</header>
+      <a class="nav-link" href="#Bash">Bash</a>
+      <a class="nav-link" href="#C">C</a>
+      <a class="nav-link" href="#Python">Python</a>
+      <a class="nav-link" href="#Git">Git</a>
+      <a class="nav-link" href="#MySQL">MySQL</a>
+    </nav><br></br>
+    <main id="main-doc">
+      <section class="main-section" id="Bash">
+        <header>Bash</header>
+        <p> Bash is the GNU Project's shell—the Bourne Again SHell. This is an sh-compatible shell that incorporates useful features from the Korn shell (ksh) and the C shell (csh). It is intended to conform to the IEEE POSIX P1003.2/ISO 9945.2 Shell and Tools standard. It offers functional improvements over sh for both programming and interactive use. In addition, most sh scripts can be run by Bash without modification.</p>
+        <p>The improvements offered by Bash include:</p>
+        <ul>
+          <li>command-line editing</li>
+          <li>unlimited size command history</li>
+          <li>job control</li>
+          <li>shell functions and aliases</li>
+          <li>indexed arrays of unlimited size</li>
+          <li>integer arithmetic in any base from two to sixty-four</li>
+        </ul>
+        <p>The maintainer also has a <a href="https://tiswww.case.edu/php/chet/bash/bashtop.html" target="_blank">Bash page</a> which includes <a href="ftp://ftp.cwru.edu/pub/bash/FAQ" target="_blank">Frequently Asked Questions</a>.</p>
+        <p><code>Hello, World!</code> in  bash</p>
+        <code>echo Hello, World!</code>
+        <br></br>
+      </section>
+      <section class="main-section" id="C">
+        <header>C</header>
+        <p>C is an imperative, procedural language in the ALGOL tradition. It has a static type system. In C, all executable code is contained within subroutines (also called "functions", though not in the sense of functional programming). Function parameters are passed by value, although arrays are passed as pointers, i.e. the address of the first item in the array. Pass-by-reference is simulated in C by explicitly passing pointers to the thing being referenced.</p>
+        <p>In 1978, Brian Kernighan and Dennis Ritchie published the first edition of The C Programming Language. Known as K&R from the initials of its authors, the book served for many years as an informal specification of the language. The version of C that it describes is commonly referred to as "K&R C". As this was released in 1978, it is now also referred to as C78.</p>
+        <p><code>Hello, World!</code> in C</p>
+        <code>#include &ltstdio.h&gt<br></br><br></br>
+              int main(void) {</br>
+                &emsp;&emsp;printf("Hello, World!\n");</br>
+                &emsp;&emsp;return 0;</br>
+              }
+        </code>
+        <br></br>
+      </section>
+      <section class="main-section" id="Python">
+        <header>Python</header>
+        <p>Python is a high-level, general-purpose programming language. Its design philosophy emphasizes code readability with the use of significant indentation</p>
+        <p>Python is dynamically typed and garbage-collected. It supports multiple programming paradigms, including structured (particularly procedural), object-oriented and functional programming. It is often described as a "batteries included" language due to its comprehensive standard library.</p>
+        <p>Python consistently ranks as one of the most popular programming languages, and has gained widespread use in the machine learning community.</p>
+        <p><code>Hello, World!</code> in Python</p>
+        <code>print ("Hello, World!")</code>
+        <p>The Zen of Python</p>
+        <code>import this</br>
+        
+        The Zen of Python, by Tim Peters<br></br>
+        Beautiful is better than ugly.</br>
+        Explicit is better than implicit.</br>
+        Simple is better than complex.</br>
+        Complex is better than complicated.</br>
+        Flat is better than nested.</br>
+        Sparse is better than dense.</br>
+        Readability counts.</br>
+        Special cases aren&apos;t special enough to break the rules.</br>
+        Although practicality beats purity.</br>
+        Errors should never pass silently.</br>
+        Unless explicitly silenced.</br>
+        In the face of ambiguity, refuse the temptation to guess.</br>
+        There should be one-- and preferably only one --obvious way to do it.</br>
+        Although that way may not be obvious at first unless you&apos;re Dutch.</br>
+        Now is better than never.</br>
+        Although never is often better than *right* now.</br>
+        If the implementation is hard to explain, it&apos;s a bad idea.</br>
+        If the implementation is easy to explain, it may be a good idea.</br>
+        Namespaces are one honking great idea -- let&apos;s do more of those!</code><br></br>
+      </section>
+      <section class="main-section" id="Git">
+        <header>Git</header>
+        <p>Git is a distributed version control system that tracks versions of files. It is often used to control source code by programmers collaboratively developing software.</p>
+        <p>Design goals of Git include speed, data integrity, and support for distributed, non-linear workflows – thousands of parallel branches running on different computers.</p>
+        <p>Git was created for use in the development of the Linux kernel by Linus Torvalds and others developing the kernel.</p>
+      </section>
+      <section class="main-section" id="MySQL">
+        <header>MySQL</header>
+        <p>MySQL is an open-source relational database management system (RDBMS). A relational database organizes data into one or more data tables in which data may be related to each other; these relations help structure the data. SQL is a language that programmers use to create, modify and extract data from the relational database, as well as control user access to the database. In addition to relational databases and SQL, an RDBMS like MySQL works with an operating system to implement a relational database in a computer's storage system, manages users, allows for network access and facilitates testing database integrity and creation of backups.</p>
+        <p>MySQL is written in C and C++. Its SQL parser is written in yacc, but it uses a home-brewed lexical analyzer.</p>
+      </section>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,20 @@
+html {
+  box-sizing: border-box;
+  background-color: #1b1b32;
+  color: #fafafa;
+  font-family: mono, sans-serif
+}
+
+#navbar {
+  border: 2px solid #a0471b
+}
+
+#navbar header{
+   font-weight: bold
+}
+
+a {
+  color: #f53082
+}
+
+@media (max-width: 1199px) and (min-width: 769px) {}

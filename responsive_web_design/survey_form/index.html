@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <h1 id="title">La Dolfina Triple Triple
+    </h1>
+    <p id="description">Survey about the Triple Triple Crown won by La Dolfina Polo Team</p>
+    <form id="survey-form">
+      <fieldset>
+        <label for="name" id="name-label">Username
+        <input id="name" type="text" required placeholder="Your username"></input>
+      </label>
+      <label for="email" id="email-label">e-mail
+        <input id="email" type="email" required placeholder="Your e-mail"></input>
+      </label>
+      <label for="number" id="number-label">Age
+        <input id="number" type="number" min=18 max=102 placeholder="18"></input>
+      </label>
+      </fieldset>
+      <fieldset>
+        <legend>Choose your player</legend>
+        <label for="dropdown" id="dropdown-label">
+        <select id="dropdown">
+          <option value="">(select one)</option>
+          <option value="1">Adolfo Cambiaso h.</option>
+          <option value="2">David Stirling h.</option>
+          <option value="3">Pablo MacDonough</option>
+          <option value="4">Juan Martín Nero</option>
+        </select>
+      </label>  
+      </fieldset>
+      <fieldset>
+        <legend>Choose your favorite year</legend>
+        <label>
+          <input type="radio" name="year" value="2013" class="inline">2013</input>
+        </label>
+        <label>
+          <input type="radio" name="year" value="2014" class="inline">2014</input>
+        </label>
+        <label>
+          <input type="radio" name="year" value="2015" class="inline">2015</input>
+        </label>
+      </fieldset>
+      <fieldset>
+        <legend>Favorite/s tournament/s</legend>
+        <label for="tortugas">
+          <input type="checkbox" id="tortugas" value="tortugas" class="inline">Tortugas</input>
+        </label>
+        <label for="hurlingham">
+          <input type="checkbox" id="hurlingham" value="hurlingham" class="inline">Hurlingham</input>
+        </label>
+        <label for="hurlingham">
+          <input type="checkbox" id="palermo" value="palermo" class="inline">Palermo</input>
+        </label>
+      </fieldset>
+      <fieldset>
+        <!--Inside the form element, you are presented with a textarea for additional comments-->
+        <legend>Share your opinions</legend>
+        <label for="opinion">
+          <textarea id="opinion" placeholder="Your opinions here" rows=3 cols=50></textarea>
+        </label>
+      </fieldset>
+      <input type="submit" value="Submit" id="submit"/>
+    </form>
+  </body>
+</html>
